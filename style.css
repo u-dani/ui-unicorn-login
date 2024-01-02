@@ -17,12 +17,12 @@
 }
 
 body {
-    font-family: sans-serif;
+    display: flex;
+    color: var(--black-900);
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     min-height: 100vh;
     overflow-x: hidden;
-    display: flex;
-    color: var(--black-900);
 }
 
 .placeholder-image {
