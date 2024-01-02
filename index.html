@@ -5,16 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UI Unicorn - Login</title>
     <link rel="shortcut icon" href="images/logo-ui-unicorn.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+    <section class="placeholder-image"></section>
 
-    <section>
-        <img src="images/placeholder.jpg" alt="" />
-    </section>
-    
-    <section>
+    <section class="container-content">
         <header>
-            <div>
+            <div class="logo">
                 <img src="images/logo-ui-unicorn.svg" alt="" />
                 <span>UI Unicorn</span>
             </div>
@@ -34,7 +32,7 @@
                </label>
 
                <div>
-                <label>
+                <label class="toggle">
                     <input type="checkbox" name="save-password" id="isave-password">
                     <span>Remember-me</span>
                 </label>
@@ -46,25 +44,22 @@
 
                <hr>
 
-               <button>
+               <button class="btn-google">
                 <img src="images/logo-google.svg" alt="">
                 <span>Or sign in with Google</span>
                </button>
 
                <span>Dont have an account? <a href="#">Sign up now</a></span>
             </form>
-
-            <div>
-                <div>
-                    <img src="images/logo-figma.svg" alt="" />
-                    <a href="https://www.figma.com/@uiunicorn" target="_blank">@uiunicorn</a>
-                </div>
-
-                <span>&copy; Perfect Login 2021</span>
-            </div>
         </main>
+
+        <footer>
+            <div>
+                <img src="images/logo-figma.svg" alt="" />
+                <a href="https://www.figma.com/@uiunicorn" target="_blank">@uiunicorn</a>
+            </div>
+            <span>&copy; Perfect Login 2021</span>
+        </footer>
     </section>
-
-
 </body>
 </html>
