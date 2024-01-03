@@ -119,18 +119,22 @@ a {
 }
 
 button {
-    background-color: var(--system-blue);
+    border: none;
     border-radius: 6px;
-    border: 1px solid var(--system-blue);
     color: white;
     cursor: pointer;
-    font-size: 0.95rem;
-    font-weight: 700;
     letter-spacing: 0.3px;
     line-height: 1.25rem;
     padding: 10px 24px;
     text-align: center;
     width: 100%;
+}
+
+.btn-submit {
+    background-color: var(--system-blue);
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin-top: 32px;
 }
 
 hr {
