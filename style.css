@@ -20,7 +20,7 @@ body {
     display: flex;
     color: var(--black-900);
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     min-height: 100vh;
     overflow-x: hidden;
 }
@@ -90,4 +90,23 @@ h2 {
     line-height: 1.25rem;
     padding: 8px 8px 8px 16px;
     width: 100%;
+}
+
+.container-checkbox {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin-top: 4px;
+}
+
+.toggle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.toggle span {
+    font-size: 0.8rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.3px;
 }
