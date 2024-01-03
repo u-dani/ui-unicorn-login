@@ -153,3 +153,11 @@ hr {
     font-size: 0.8rem;
     padding: 10px 16px;
 }
+
+.container-link {
+    font-size: 0.8rem;
+    letter-spacing: 0.3px;
+    line-height: 1.25rem;
+    margin-top: 24px;
+    text-align: center;
+}
