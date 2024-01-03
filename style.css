@@ -60,3 +60,17 @@ h2 {
     line-height: 1.75rem;
     margin-bottom: 24px;
 }
+
+.text-field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.text-field span {
+    color: var(--black-800);
+    font-size: 0.8rem;
+    line-height: 0.875rem;
+    letter-spacing: 0.3px;
+}
