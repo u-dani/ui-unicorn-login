@@ -110,3 +110,10 @@ h2 {
     line-height: 1.25rem;
     letter-spacing: 0.3px;
 }
+
+a {
+    color: var(--system-blue);
+    font-size: 0.8rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.3px;
+}
