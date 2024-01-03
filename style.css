@@ -95,6 +95,7 @@ h2 {
 .container-checkbox {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     gap: 16px;
     margin-top: 4px;
 }
