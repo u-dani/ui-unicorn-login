@@ -26,6 +26,7 @@ body {
 }
 
 .placeholder-image {
+    position: relative;
     background-color: blue;
     background-image: url(images/placeholder.jpg);
     background-position: center;
@@ -33,6 +34,21 @@ body {
     background-size: cover;
     height: 100vh;
     width: 100%;
+}
+
+.placeholder-image > span {
+    position: absolute;
+    bottom: 48px;
+    left: 48px;
+    color: white;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    letter-spacing: -0.2px;
+}
+
+.placeholder-image a {
+    color: white;
+    text-decoration: underline;
 }
 
 .container-content {
