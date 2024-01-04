@@ -164,12 +164,19 @@ hr {
 
 footer {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
+    flex: 1;
     color: var(--black-600);
     font-size: 0.8rem;
     letter-spacing: -0.4px;
     line-height: 1rem;
+}
+
+footer > .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 .wrapper-icon {
