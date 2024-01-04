@@ -161,3 +161,24 @@ hr {
     margin-top: 24px;
     text-align: center;
 }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--black-600);
+    font-size: 0.8rem;
+    letter-spacing: -0.4px;
+    line-height: 1rem;
+}
+
+.wrapper-icon {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.wrapper-icon img {
+    width: 24px;
+    height: 24px;
+}
