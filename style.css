@@ -232,3 +232,8 @@ footer > .row {
     width: 24px;
     height: 24px;
 }
+
+/* hide the default icon to toggle password input visibility */
+::-ms-reveal {
+    display: none;
+}
