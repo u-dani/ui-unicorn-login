@@ -112,6 +112,11 @@ h2 {
     width: 100%;
 }
 
+.text-field input:focus {
+    outline: 2px solid var(--system-blue);
+    border-color: transparent;
+}
+
 .text-field input::placeholder {
     color: var(--black-500);
 }
