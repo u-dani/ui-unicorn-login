@@ -96,16 +96,31 @@ h2 {
     padding: 0px 16px;
 }
 
+.text-field .wrapper-input {
+    position: relative;
+}
+
 .text-field input {
     background: var(--black-50);
-    color: var(--black-500);
-    border: 1px solid var(--black-100);
+    background: yellow;
     border-radius: 6px;
+    border: 1px solid var(--black-100);
+    color: var(--black-500);
     font-size: 0.95rem;
     font-weight: 400;
     line-height: 1.25rem;
-    padding: 8px 8px 8px 16px;
+    padding: 8px 32px 8px 16px;
     width: 100%;
+}
+
+.text-field .wrapper-input .icon {
+    position: absolute;
+    right: 0;
+    box-sizing: content-box;
+    cursor: pointer;
+    height: 100%;
+    padding: 0px 8px;
+    width: 16px;
 }
 
 .container-checkbox {
