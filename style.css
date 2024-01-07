@@ -116,15 +116,31 @@ h2 {
     color: var(--black-500);
 }
 
-.text-field .wrapper-input .icon {
-    position: absolute;
-    right: 0;
-    box-sizing: content-box;
+button {
+    border: none;
     cursor: pointer;
+}
+
+.text-field .wrapper-input .btn-icon { 
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: transparent;
     height: 100%;
     padding: 0px 8px;
-    width: 16px;
     z-index: 20;
+}
+
+.text-field .wrapper-input .btn-icon svg {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+
+.sr-only {
+    position: absolute;
+    left: 1000px;
 }
 
 .container-checkbox {
@@ -152,18 +168,6 @@ a {
     font-size: 0.8rem;
     line-height: 1.25rem;
     letter-spacing: 0.3px;
-}
-
-button {
-    border: none;
-    border-radius: 6px;
-    color: white;
-    cursor: pointer;
-    letter-spacing: 0.3px;
-    line-height: 1.25rem;
-    padding: 10px 24px;
-    text-align: center;
-    width: 100%;
 }
 
 .btn-submit {
