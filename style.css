@@ -240,5 +240,5 @@ footer > .row {
 
 .sr-only {
     position: absolute;
-    left: -1000px;
+    left: -100vw;
 }
