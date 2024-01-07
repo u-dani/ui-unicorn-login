@@ -13,3 +13,24 @@
 input:placeholder-shown ~ .btn-icon-cancel {
     display: none;
 }
+
+button:focus-visible {
+    outline: 3px solid var(--system-blue);
+    outline-offset: 4px;
+}
+
+.btn-submit:hover {
+    background: linear-gradient(rgba(255, 255, 255, .1), rgba(255, 255, 255, .1)), var(--system-blue);
+}
+
+.btn-submit:active {
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), var(--system-blue);
+}
+
+.btn-google:hover {
+    background: linear-gradient(rgba(255, 255, 255, .1), rgba(255, 255, 255, .1)), var(--black-800);
+}
+
+.btn-google:active {
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), var(--black-800);
+}
