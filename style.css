@@ -104,16 +104,19 @@ button {
 .text-field .wrapper-input {
     display: flex;
     align-items: center;
-}
-
-.text-field input {
     background: var(--black-50);
     border-radius: 6px;
     border: 1px solid var(--black-100);
+}
+
+.text-field input {
+    background: none;
+    border: none;
     color: var(--black-900);
     font-size: 0.95rem;
     font-weight: 400;
     line-height: 1.25rem;
+    outline: none;
     padding: 8px 8px 8px 16px;
     width: 100%;
 }
@@ -122,10 +125,11 @@ button {
     color: var(--black-500);
 }
 
-.text-field .wrapper-input .btn-icon {
+.text-field .btn-icon {
     background: transparent;
     display: block;
     padding: 8px;
+    /* border: 1px solid red; */
 }
 
 .text-field .wrapper-input .btn-icon svg, .text-field .wrapper-input .btn-icon img {
@@ -236,5 +240,5 @@ footer > .row {
 
 .sr-only {
     position: absolute;
-    left: 1000px;
+    left: -1000px;
 }
