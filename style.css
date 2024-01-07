@@ -81,6 +81,11 @@ h2 {
     margin-bottom: 24px;
 }
 
+button {
+    border: none;
+    cursor: pointer;
+}
+
 .text-field {
     display: flex;
     flex-direction: column;
@@ -97,7 +102,8 @@ h2 {
 }
 
 .text-field .wrapper-input {
-    position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .text-field input {
@@ -108,7 +114,7 @@ h2 {
     font-size: 0.95rem;
     font-weight: 400;
     line-height: 1.25rem;
-    padding: 8px 32px 8px 16px;
+    padding: 8px 8px 8px 16px;
     width: 100%;
 }
 
@@ -116,19 +122,10 @@ h2 {
     color: var(--black-500);
 }
 
-button {
-    border: none;
-    cursor: pointer;
-}
-
-.text-field .wrapper-input .btn-icon { 
-    position: absolute;
-    top: 0;
-    right: 0;
+.text-field .wrapper-input .btn-icon {
     background: transparent;
-    height: 100%;
-    padding: 0px 8px;
-    z-index: 20;
+    display: block;
+    padding: 8px;
 }
 
 .text-field .wrapper-input .btn-icon svg, .text-field .wrapper-input .btn-icon img {
