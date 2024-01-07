@@ -1,20 +1,20 @@
 const visibilityIconPath = 'images/icon-visibility.svg';
 const visibilityOffIconPath = 'images/icon-visibility-off.svg';
 
-const inputPassword = document.querySelector('#input-password');
-const btnCancel = document.querySelector('.js-btn-cancel');
-const btnTogglePassword = document.querySelector('.js-icon-password');
+const passwordInput = document.querySelector('#input-password');
+const passwordIcon = document.querySelector('#input-password ~ button img')
 
-function togglePasswordVisibility({ target }) {
-    const input = target.previousElementSibling;
-    
-    if (input.getAttribute("type") === "text") {
-        input.setAttribute("type", "password");
-        target.setAttribute("src", visibilityIconPath);
+const btnCancel = document.querySelector('.js-btn-cancel');
+const btnTogglePassword = document.querySelector('.js-btn-password');
+
+function togglePasswordVisibility() {
+    if (passwordInput.getAttribute("type") === "text") {
+        passwordInput.setAttribute("type", "password");
+        passwordIcon.setAttribute("src", visibilityIconPath);
     }
     else {
-        inputPassword.setAttribute("type", "text");
-        target.setAttribute("src", visibilityOffIconPath);
+        passwordInput.setAttribute("type", "text");
+        passwordIcon.setAttribute("src", visibilityOffIconPath);
     }
 }
 
