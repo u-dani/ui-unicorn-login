@@ -1,10 +1,9 @@
 const visibilityIconPath = 'images/icon-visibility.svg';
 const visibilityOffIconPath = 'images/icon-visibility-off.svg';
 
+const allCancelButtons = document.querySelectorAll('.js-btn-cancel');
 const passwordInput = document.querySelector('#input-password');
-const passwordIcon = document.querySelector('#input-password ~ button img')
-
-const btnCancel = document.querySelector('.js-btn-cancel');
+const passwordIcon = document.querySelector('#input-password ~ button img');
 const btnTogglePassword = document.querySelector('.js-btn-password');
 
 function togglePasswordVisibility() {
@@ -18,5 +17,5 @@ function togglePasswordVisibility() {
     }
 }
 
-btnCancel.addEventListener('click', ({ target }) => target.previousElementSibling.value = "");
+allCancelButtons.forEach( btn => btn.addEventListener('click', ({ target }) => target.previousElementSibling.value = ""));
 btnTogglePassword.addEventListener('click', togglePasswordVisibility);
