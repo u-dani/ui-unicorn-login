@@ -3,12 +3,13 @@
     border-color: transparent;
 }
 
-.text-field .wrapper-input .icon:focus-visible {
+.text-field .wrapper-input .btn-icon:focus-visible {
     outline: 2px solid var(--system-blue);
     outline-offset: -2px;
-    transform: scale(1);
+    display: block;
 }
 
-input:placeholder-shown ~ .icon-cancel, input:not(:focus) ~ .icon-cancel {
-    transform: scale(0);
+.text-field .wrapper-input:not(:focus-within) .btn-icon-cancel,
+input:placeholder-shown ~ .btn-icon-cancel {
+    display: none;
 }
