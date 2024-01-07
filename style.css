@@ -131,16 +131,11 @@ button {
     z-index: 20;
 }
 
-.text-field .wrapper-input .btn-icon svg {
+.text-field .wrapper-input .btn-icon svg, .text-field .wrapper-input .btn-icon img {
     width: 16px;
     height: 16px;
     vertical-align: middle;
     pointer-events: none;
-}
-
-.sr-only {
-    position: absolute;
-    left: 1000px;
 }
 
 .container-checkbox {
@@ -232,4 +227,9 @@ footer > .row {
 /* hide the default icon to toggle password input visibility */
 ::-ms-reveal {
     display: none;
+}
+
+.sr-only {
+    position: absolute;
+    left: 1000px;
 }
