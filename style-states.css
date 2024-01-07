@@ -1,15 +1,14 @@
-.text-field input:focus {
+.wrapper-input:has(input:focus) {
     outline: 2px solid var(--system-blue);
-    border-color: transparent;
 }
 
-.text-field .wrapper-input .btn-icon:focus-visible {
+.wrapper-input .btn-icon:focus-visible {
+    display: block;
     outline: 2px solid var(--system-blue);
     outline-offset: -2px;
-    display: block;
 }
 
-.text-field .wrapper-input:not(:focus-within) .btn-icon-cancel,
+.wrapper-input:not(:focus-within) .btn-icon-cancel,
 input:placeholder-shown ~ .btn-icon-cancel {
     display: none;
 }
