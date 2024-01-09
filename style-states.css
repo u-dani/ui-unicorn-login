@@ -13,6 +13,15 @@ input:placeholder-shown ~ .btn-icon-cancel {
     display: none;
 }
 
+.container-toggle:has(input:checked) .toggle {
+    background: var(--system-blue);
+    border-color: var(--system-blue);
+}
+
+.container-toggle:has(input:checked) .toggle::before {
+    left: calc(100% - 16px - 2px);
+}
+
 button:focus-visible {
     outline: 3px solid var(--system-blue);
     outline-offset: 4px;
