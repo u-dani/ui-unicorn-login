@@ -147,16 +147,44 @@ button {
     margin-top: 4px;
 }
 
-.toggle {
+.container-toggle {
     display: flex;
     align-items: center;
     gap: 8px;
 }
 
-.toggle span {
+.container-toggle input {
+    display: none;
+}
+
+.container-toggle span {
     font-size: 0.8rem;
     line-height: 1.25rem;
     letter-spacing: 0.3px;
+}
+
+.toggle {
+    position: relative;
+    border: 0.5px solid var(--black-100);
+    background: var(--black-50);
+    min-width: 40px;
+    min-height: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.toggle::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 2px;
+    height: 16px;
+    border-radius: 50%;
+    background: white;
+    transition: 300ms;
 }
 
 a {
