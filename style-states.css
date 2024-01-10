@@ -13,13 +13,26 @@ input:placeholder-shown ~ .btn-icon-cancel {
     display: none;
 }
 
-.container-toggle:has(input:checked) .toggle {
+.toggle:focus-visible {
+    outline: 2px solid var(--system-blue);
+    outline-offset: 3px;
+}
+
+.toggle:checked {
     background: var(--system-blue);
     border-color: var(--system-blue);
 }
 
-.container-toggle:has(input:checked) .toggle::before {
+.toggle:checked::before {
     left: calc(100% - 16px - 2px);
+}
+
+.toggle:hover {
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), var(--black-50);
+}
+
+.toggle:checked:hover {
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), var(--system-blue);
 }
 
 button:focus-visible {
