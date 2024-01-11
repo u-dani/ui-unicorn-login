@@ -1,3 +1,8 @@
+:focus {
+    outline: 2px solid var(--system-blue);
+    outline-offset: 2px;
+}
+
 .wrapper-input:has(input:focus) {
     outline: 2px solid var(--system-blue);
 }
