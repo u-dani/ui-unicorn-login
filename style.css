@@ -27,7 +27,6 @@ body {
 
 .placeholder-image {
     position: relative;
-    background-color: blue;
     background-image: url(images/placeholder.jpg);
     background-position: center;
     background-repeat: no-repeat;
