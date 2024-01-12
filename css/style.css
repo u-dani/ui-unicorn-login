@@ -28,7 +28,7 @@ body {
 
 .placeholder-image {
     position: relative;
-    background-image: url(images/placeholder.jpg);
+    background-image: url(../images/placeholder.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
