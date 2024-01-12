@@ -3,6 +3,10 @@
     outline-offset: 2px;
 }
 
+.placeholder-image a {
+    outline: 2px solid black;
+}
+
 .wrapper-input:has(input:focus) {
     outline: 2px solid var(--system-blue);
 }
