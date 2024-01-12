@@ -3,3 +3,9 @@
         display: none;
     }
 }
+
+@media (max-width: 420px) {
+    .container-content {
+        padding: 24px 16px;
+    }
+}
