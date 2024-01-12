@@ -3,7 +3,7 @@ const visibilityOffIconPath = 'images/icon-visibility-off.svg';
 
 const allCancelButtons = document.querySelectorAll('.js-btn-cancel');
 const passwordInput = document.querySelector('#input-password');
-const passwordIcon = document.querySelector('#input-password ~ button img');
+const passwordIcon = document.querySelector('.js-btn-password > img');
 const btnTogglePassword = document.querySelector('.js-btn-password');
 
 function togglePasswordVisibility() {
