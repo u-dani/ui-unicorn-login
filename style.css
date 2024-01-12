@@ -144,12 +144,14 @@ button {
     pointer-events: none;
 }
 
-.container-checkbox {
+.row {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: 8px 16px;
     flex-wrap: wrap;
-    gap: 16px;
     margin-top: 4px;
+    width: 100%;
 }
 
 .container-toggle {
@@ -243,13 +245,6 @@ footer {
     font-size: 0.8rem;
     letter-spacing: -0.4px;
     line-height: 1rem;
-}
-
-footer > .row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
 }
 
 .wrapper-icon {
