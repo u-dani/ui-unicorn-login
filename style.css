@@ -54,7 +54,8 @@ body {
 }
 
 .container-content {
-    width: 456px;
+    max-width: 456px;
+    width: 100%;
     padding: 48px;
     display: flex;
     flex-direction: column;
