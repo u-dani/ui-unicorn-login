@@ -6,12 +6,38 @@
 
 @media (max-width: 420px) {
     .container-content {
-        padding: 24px 16px;
         gap: 0px;
+        padding: 24px 16px;
     }
 
     header {
         display: none;
+    }
+
+    .text-field {
+        margin-bottom: 12px;
+    }
+
+    .text-field span {
+        clip-path: inset(50%);
+        clip: rect(0 0 0 0);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap; 
+        width: 1px;
+    }
+
+    .row {
+        margin-top: 0px;
+    }
+
+    .btn-submit {
+        margin-top: 24px;
+    }
+
+    hr {
+        margin: 24px 0px;
     }
 
     .container-logo-mobile {
@@ -23,32 +49,5 @@
 
     footer {
         flex: 0;
-    }
-
-    .btn-submit {
-        margin-top: 24px;
-    }
-
-    hr {
-        margin: 24px 0px;
-    }
-
-    .text-field {
-        margin-bottom: 12px;
-    }
-
-    .text-field span {
-        background: red;
-        clip: rect(0 0 0 0);
-        clip-path: inset(50%);
-        height: 1px;
-        overflow: hidden;
-        position: absolute;
-        white-space: nowrap; 
-        width: 1px;
-    }
-
-    .row {
-        margin-top: 0px;
     }
 }
