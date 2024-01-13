@@ -7,5 +7,21 @@
 @media (max-width: 420px) {
     .container-content {
         padding: 24px 16px;
+        gap: 0px;
+    }
+
+    header {
+        display: none;
+    }
+
+    .container-logo-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+    }
+
+    footer {
+        flex: 0;
     }
 }
