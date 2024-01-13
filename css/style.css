@@ -237,6 +237,19 @@ hr {
     text-align: center;
 }
 
+.container-logo-mobile {
+    display: none;
+}
+
+.logo-mobile {
+    font-size: 1rem;
+}
+
+.logo-mobile img {
+    width: 40px;
+    height: 40px;
+}
+
 footer {
     display: flex;
     align-items: flex-end;
