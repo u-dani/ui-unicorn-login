@@ -3,7 +3,7 @@ Uma página de Login simples. Fiz esse projeto pra aprender sobre acessibilidade
 Design da página https://www.figma.com/community/file/1050476989533233612/login-page-perfect-ui-freebie
 
 Live Demo: [link do github pages here] <br>
-Design by Kirill Makarov (UI Unicorn): <a href="https://www.figma.com/community/file/1050476989533233612/login-page-perfect-ui-freebie" target="_blank">https://www.figma.com/community/file/1050476989533233612/login-page-perfect-ui-freebie</a>
+Design by <a href="https://www.figma.com/community/file/1050476989533233612/login-page-perfect-ui-freebie" target="_blank">Kirill Makarov (UI Unicorn)</a>
 
 ## 🎬 Screenshots
 ![Desktop](images\demo\desktop-1920x1080.jpeg)
