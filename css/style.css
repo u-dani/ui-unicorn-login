@@ -229,6 +229,11 @@ hr {
     padding: 10px 16px;
 }
 
+.btn-google .icon {
+    width: 20px;
+    height: 20px;
+}
+
 .container-link {
     font-size: 0.8rem;
     letter-spacing: 0.3px;
