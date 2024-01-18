@@ -5,7 +5,12 @@ Uma página de Login simples. Fiz esse projeto pra aprender sobre acessibilidade
 🖼️ Design by <a href="https://www.figma.com/community/file/1050476989533233612/login-page-perfect-ui-freebie" target="_blank">Kirill Makarov (UI Unicorn)</a>
 
 ## 🎬 Screenshots
-<img src="images/demo/desktop.jpeg" />
-<img src="images/demo/mobile1.jpeg" />
-<img src="images/demo/mobile2.jpeg" />
+| Desktop 1920x1080 |
+|:-------:|
+| <img src="images/demo/desktop.jpeg" /> |
+
+| iPhone 14 Pro Max  | Samsung Galaxy S8+ |
+|:--------:|:------:|
+| <img src="images/demo/mobile1.jpeg" height="800px" /> | <img src="images/demo/mobile1.jpeg" height="800px" /> |
+
 
