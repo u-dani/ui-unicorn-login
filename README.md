@@ -7,8 +7,8 @@ Uma página de Login simples. Fiz esse projeto pra aprender sobre acessibilidade
 ## 🎬 Screenshots
 | Desktop 1920x1080 |
 |:-------:|
-| <img src="images/demo/desktop.jpeg" /> |
+| <img src="images/demo/desktop-1920x1080.jpeg" /> |
 
 | iPhone 14 Pro Max  | Samsung Galaxy S8+ |
 |:--------:|:------:|
-| <img src="images/demo/mobile1.jpeg" height="710px" /> | <img src="images/demo/mobile1.jpeg" height="710px" /> |
+| <img src="images/demo/iPhone14-Pro-Max.jpeg" height="710px" /> | <img src="images/demo/Samsung-Galaxy-S8+.jpeg" height="710px" /> |
