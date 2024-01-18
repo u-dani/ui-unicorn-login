@@ -11,6 +11,6 @@ Uma página de Login simples. Fiz esse projeto pra aprender sobre acessibilidade
 
 | iPhone 14 Pro Max  | Samsung Galaxy S8+ |
 |:--------:|:------:|
-| <img src="images/demo/mobile1.jpeg" height="800px" /> | <img src="images/demo/mobile1.jpeg" height="800px" /> |
+| <img src="images/demo/mobile1.jpeg" height="750px" /> | <img src="images/demo/mobile1.jpeg" height="750px" /> |
 
 
