@@ -10,12 +10,12 @@ function togglePasswordVisibility() {
     if (passwordInput.getAttribute("type") === "text") {
         passwordInput.setAttribute("type", "password");
         passwordIcon.setAttribute("src", visibilityIconPath);
-        btnTogglePassword.setAttribute('aria-pressed') = 'false';
+        btnTogglePassword.setAttribute("aria-checked", "false");
     }
     else {
         passwordInput.setAttribute("type", "text");
         passwordIcon.setAttribute("src", visibilityOffIconPath);
-        btnTogglePassword.setAttribute('aria-pressed') = 'true';
+        btnTogglePassword.setAttribute("aria-checked", "true");
     }
 }
 
