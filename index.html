@@ -53,7 +53,7 @@
 
                <div class="row">
                 <label class="container-toggle">
-                    <input type="checkbox" role="switch" name="save-password" id="isave-password" class="toggle" />
+                    <input type="checkbox" aria-hidden="true" role="switch" name="save-password" id="isave-password" class="toggle" />
                     <span>Remember-me</span>
                 </label>
                 
@@ -86,7 +86,10 @@
             <div class="row">
                 <div class="wrapper-icon">
                     <img src="images/logo-figma.svg" alt="" />
-                    <a href="https://www.figma.com/@uiunicorn" target="_blank">@uiunicorn</a>
+                    <a href="https://www.figma.com/@uiunicorn" target="_blank">
+                        <span aria-hidden="true">@uiunicorn</span>
+                        <span class="visually-hidden">visit the figma profile of Kirill Makarov @uiunicorn</span>
+                    </a>
                 </div>
                 <span>&copy; Perfect Login 2021</span>
             </div>
